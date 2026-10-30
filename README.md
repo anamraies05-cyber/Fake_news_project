@@ -28,7 +28,7 @@ This is a first version. LIAR is a hard dataset with short statements, and the m
 3. Install the tools:
    pip install -r requirements.txt
 4. Download the trained model from the link below, and place the folder `fake_news_bert` inside the project folder.
-   Model link: (add your Google Drive link here)
+   Model link: ([(https://drive.google.com/drive/folders/1nb93coY0uTpGpThcfMk3mjCp0KjnDN10?usp=drive_link))
 5. Start the app:
    python -m streamlit run app.py
 
