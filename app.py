@@ -7,7 +7,7 @@ st.set_page_config(page_title="Fake News Detector", page_icon="📰")
 
 @st.cache_resource
 def load_model():
-        tokenizer = AutoTokenizer.from_pretrained("anamcodes/fake-news-bert")
+           tokenizer = AutoTokenizer.from_pretrained("anamcodes/fake-news-bert")
     model = AutoModelForSequenceClassification.from_pretrained("anamcodes/fake-news-bert")
     model.eval()
     return tokenizer, model
