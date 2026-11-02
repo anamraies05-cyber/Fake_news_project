@@ -1,4 +1,5 @@
 # Fake News Detection using BERT
+**Live demo:** https://fake-news-detector-pr.streamlit.app/
 
 A text classifier that reads a news statement and predicts whether it looks **real** or **fake**. It is the text-analysis part of my final year project on fake news and deepfake detection.
 
